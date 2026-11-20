@@ -1,4 +1,4 @@
-# octoperf-com
+# OctoPerf
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,118 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-octoperf-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://octoperf.com/
+OctoPerf is an enterprise‑grade performance and load testing platform offered as SaaS and on‑premise. It enables engineering teams to simulate realistic traffic, identify bottlenecks, and validate application scalability while reducing costs. With over 10 years in business, serving 1000+ customers across 32 countries, OctoPerf provides a user‑friendly interface for JMeter™ and k6 tests, AI‑enhanced load testing, and extensive integrations.
+
+**Areas:** PerformanceTesting · SaaS · OnPremise · LoadTesting · JMeter · k6
+
+## OctoPerf on APIs.io
+
+Everything profiled for OctoPerf is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/octoperf-com/](https://apis.io/providers/octoperf-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (4)
+
+- [OctoPerf API](https://apis.io/apis/octoperf-com/octoperf-api/) — OctoPerf provides a REST API for managing load testing projects, virtual users, and results. Documentation is available at the Getting Started page.
+- [OctoPerf Overview API](https://apis.io/apis/octoperf-com/administration-api/) — OctoPerf Overview API as documented publicly: 10 operations. Contract generated from the documentation by API Evangelist (2026-11-19); not the provider's…
+- [OctoPerf core API](https://apis.io/apis/octoperf-com/core-api/) — OctoPerf core API as documented publicly: 3 operations. Contract generated from the documentation by API Evangelist (2026-11-19); not the provider's own…
+- [OctoPerf Runtime API](https://apis.io/apis/octoperf-com/runtime-api/) — OctoPerf Runtime API as documented publicly: 4 operations. Contract generated from the documentation by API Evangelist (2026-11-19); not the provider's own…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (4)
+
+The data models the API reads and writes.
+
+- [GetRuntimeScenariosSanityCheckScenarioidResponse](https://apis.io/schemas/octoperf-com/octoperf-com-get-runtime-scenarios-sanity-check-scenarioid-response/)
+- [PostAdminMaintenanceNameRunRequest](https://apis.io/schemas/octoperf-com/octoperf-com-post-admin-maintenance-name-run-request/)
+- [PostAuthConnectRegisterRequest](https://apis.io/schemas/octoperf-com/octoperf-com-post-auth-connect-register-request/)
+- [PostRequest](https://apis.io/schemas/octoperf-com/octoperf-com-post-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Octoperf Com Context](https://apis.io/jsonld/octoperf-com/octoperf-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [OctoPerf API Rules](https://apis.io/rules/octoperf-com/octoperf-com-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [OctoPerf Domain Security](https://apis.io/security/octoperf-com/octoperf-com-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://octoperf.com/)
+- [Documentation](https://api.octoperf.com/doc/)
+- [Getting started](https://api.octoperf.com/doc)
+- [Pricing](https://octoperf.com/pricing/saas-and-on-premise-load-testing/)
+- [Changelog](https://api.octoperf.com/doc/release-notes/)
+- [Blog](https://blog.octoperf.com/)
+- [Terms of service](https://api.octoperf.com/doc/tos/)
+- [Privacy policy](https://api.octoperf.com/doc/privacy/)
+- [GitHub](https://github.com/OctoPerf)
+
+## API Evangelist rating
+
+**Kin Score 43.3** — developing · rubric 0.27.0 · scored 2026-11-19
+
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 49.5 |
+| Contract governance | 79.1 |
+| Operational transparency | 21.1 |
+| Developer ergonomics | 23.8 |
+| Access clarity | 31.6 |
+
+**Agent readiness 34.0** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | — |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/octoperf-com/](https://apis.io/providers/octoperf-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for OctoPerf: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/octoperf-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
